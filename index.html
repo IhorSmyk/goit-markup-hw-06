@@ -427,6 +427,26 @@
             </li>
           </ul>
         </div>
+
+        <!-----------subscription----------->
+
+        <div class="subscription">
+          <h2 class="subscription-title">Підпишіться на розсилку</h2>
+          <div class="subscription-wrapper">
+            <label class="subscription-label">
+              <input
+                type="text"
+                class="subscription-input"
+                name="subscription_email"
+                placeholder="E-mail"
+                pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"
+                maxlength="50"
+              />
+            </label>
+
+            <button class="subscription-btn">Підписатися</button>
+          </div>
+        </div>
       </div>
     </footer>
 
@@ -511,7 +531,10 @@
           <label class="modal-form-check-wrapper">
             <input name="user_policy" type="checkbox" class="modal-form-check visually-hidden" />
             <svg class="modal-form-custom-check" width="16" height="16">
-              <use class="modal-form-custom-check-icon" href="./images/icons/sprite.svg#icon-check"></use>
+              <use
+                class="modal-form-custom-check-icon"
+                href="./images/icons/sprite.svg#icon-check"
+              ></use>
             </svg>
             <p class="modal-form-check-agreement">Погоджуюся з розсилкою та приймаю&nbsp;</p>
             <a class="modal-form-check-agreement-link" href="">Умови договору</a>
@@ -525,4 +548,3 @@
     <script src="./js/modal.js"></script>
   </body>
 </html>
-

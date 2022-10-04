@@ -247,7 +247,8 @@ body {
   flex-direction: column;
 }
 
-.our-socials-title {
+.our-socials-title,
+.subscription-title {
   color: var(--background-color1);
   font-weight: 700;
   font-size: 14px;
@@ -281,6 +282,38 @@ body {
 .our-socials-item-link:hover,
 .our-socials-item-link:focus {
   background: var(--hoverfocus-color);
+}
+
+/*--------subscription---------*/
+
+.subscription {
+  margin-left: auto;
+}
+
+.subscription-wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.subscription-btn {
+  padding: 10px 28px;
+  background-color: var(--button);
+  color: var(--background-color1);
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.subscription-btn::before {
+  
 }
 
 /*----------backdrop----------*/
