@@ -325,42 +325,42 @@
         <ul class="client-list list">
           <li class="client-item">
             <a class="client-link" href="">
-              <svg class="client-icon" width="41" heigth="46.7">
+              <svg class="client-icon" width="41" height="46.7">
                 <use href="./images/icons/sprite.svg#icon-client1"></use>
               </svg>
             </a>
           </li>
           <li class="client-item">
             <a class="client-link" href="">
-              <svg class="client-icon" width="42" heigth="52">
+              <svg class="client-icon" width="42" height="52">
                 <use href="./images/icons/sprite.svg#icon-client2"></use>
               </svg>
             </a>
           </li>
           <li class="client-item">
             <a class="client-link" href="">
-              <svg class="client-icon" width="43.4" heigth="41">
+              <svg class="client-icon" width="43.4" height="41">
                 <use href="./images/icons/sprite.svg#icon-client3"></use>
               </svg>
             </a>
           </li>
           <li class="client-item">
             <a class="client-link" href="">
-              <svg class="client-icon" width="84.4" heigth="40.6">
+              <svg class="client-icon" width="84.4" height="40.6">
                 <use href="./images/icons/sprite.svg#icon-client4"></use>
               </svg>
             </a>
           </li>
           <li class="client-item">
             <a class="client-link" href="">
-              <svg class="client-icon" width="62.5" heigth="45.4">
+              <svg class="client-icon" width="62.5" height="45.4">
                 <use href="./images/icons/sprite.svg#icon-client5"></use>
               </svg>
             </a>
           </li>
           <li class="client-item">
             <a class="client-link" href="">
-              <svg class="client-icon" width="93.8" heigth="44">
+              <svg class="client-icon" width="93.8" height="44">
                 <use href="./images/icons/sprite.svg#icon-client6"></use>
               </svg>
             </a>
@@ -444,7 +444,12 @@
               />
             </label>
 
-            <button class="subscription-btn">Підписатися</button>
+            <button type="submit" class="subscription-btn">
+              Підписатися
+              <svg class="subscription-btn-icon" width="24" height="24">
+                <use href="./images/icons/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </div>
@@ -489,7 +494,7 @@
                 type="tel"
                 class="modal-form-input"
                 name="user_phone"
-                placeholdeer="0991234567"
+                placeholder="0991234567"
                 required
                 pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$"
                 title="xxx-xxx-xx-xx"
@@ -536,7 +541,7 @@
                 href="./images/icons/sprite.svg#icon-check"
               ></use>
             </svg>
-            <p class="modal-form-check-agreement">Погоджуюся з розсилкою та приймаю&nbsp;</p>
+            <span class="modal-form-check-agreement">Погоджуюся з розсилкою та приймаю&nbsp;</span>
             <a class="modal-form-check-agreement-link" href="">Умови договору</a>
           </label>
 
